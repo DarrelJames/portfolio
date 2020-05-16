@@ -1,0 +1,18 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  border: 1px solid red;
+}
+
+.nav {
+  position: sticky;
+}
+
+.aboutHeader {
+  margin-top: 10rem;
+}

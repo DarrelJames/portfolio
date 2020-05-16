@@ -4,14 +4,16 @@ import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";
 import Projects from "./components/Projects/Projects";
 
+import "./App.module.css";
+
 function App() {
   return (
-    <div className="App">
-      <About />
-      <Contact />
+    <>
       <Header />
+      <About />
       <Projects />
-    </div>
+      <Contact />
+    </>
   );
 }
 
