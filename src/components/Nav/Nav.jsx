@@ -4,7 +4,7 @@ import styles from "./Nav.module.css";
 
 const Nav = () => {
   return (
-    <header className={styles.container}>
+    <header className={styles.container} id="nav">
       <ul>
         <li className={styles.item}>
           <Link
@@ -24,7 +24,7 @@ const Nav = () => {
             to="about"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={-50}
             duration={500}
           >
             About
