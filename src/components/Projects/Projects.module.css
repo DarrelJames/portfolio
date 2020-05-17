@@ -1,12 +1,18 @@
 .container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
-    url("../../images/landing-page.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
+
+  color: black;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  width: 80%;
 }
