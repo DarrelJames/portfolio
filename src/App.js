@@ -4,7 +4,7 @@ import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";
 import Projects from "./components/Projects/Projects";
 
-import "./App.module.css";
+import "./App.css";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Header />
 
       <Projects />
+
       <About />
       <Contact />
     </>

@@ -1,9 +1,12 @@
 import React from "react";
 import styles from "./Contact.module.css";
+import Spacer from "../Spacer/Spacer";
 const Contact = () => {
   return (
     <>
-      <div className={styles.container} id="contact">
+      <Spacer id="contact" />
+
+      <div className={styles.container}>
         <h1>
           Hello, I'm <span style={{ color: "#e31b6d" }}>Darrel Castellano</span>
           .

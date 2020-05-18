@@ -43,7 +43,7 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1qRL9MIInwp57PUizWY2OYar5aqLEhATu/preview">
+          <a href="https://drive.google.com/file/d/1qRL9MIInwp57PUizWY2OYar5aqLEhATu/view">
             Resume
           </a>
         </li>

@@ -20,7 +20,7 @@ const ProjectCard = ({ image }) => {
             >
               Covid19 Tracker
             </span>
-            <i class="fas fa-ellipsis-v"></i>
+            <i className="fas fa-ellipsis-v"></i>
           </div>
           <p>Keep track of the covid 19 numbers around the world.</p>
         </div>
@@ -33,7 +33,7 @@ const ProjectCard = ({ image }) => {
             onClick={() => setIsFlipped(!isFlipped)}
           >
             <h4>Accomplisments</h4>
-            <i class="fas fa-times"></i>
+            <i className="fas fa-times"></i>
           </div>
           <ul>
             <li>React Framework</li>

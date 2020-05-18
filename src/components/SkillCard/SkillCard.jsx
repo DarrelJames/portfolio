@@ -1,7 +1,6 @@
 import React from "react";
 
 import styles from "./SkillCard.module.css";
-import html from "../../images/html5.png";
 
 const SkillCard = ({ title, skills }) => {
   return (
