@@ -42,7 +42,11 @@ const Nav = () => {
             About
           </Link>
         </li>
-
+        <li>
+          <a href="https://drive.google.com/file/d/1qRL9MIInwp57PUizWY2OYar5aqLEhATu/preview">
+            Resume
+          </a>
+        </li>
         <li className={styles.item}>
           <Link
             activeClass={styles.active}

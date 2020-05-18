@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../Nav/Nav";
+
 import SkillCard from "../SkillCard/SkillCard";
 
 import styles from "./About.module.css";
@@ -50,7 +50,6 @@ const other = [
 const About = () => {
   return (
     <>
-      <Nav />
       <div className={styles.container} id="about">
         <h1 className={styles.aboutHeader}>Skills</h1>
         <SkillCard title="HTML" skills={html5} />
