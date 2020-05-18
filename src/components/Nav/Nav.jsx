@@ -21,18 +21,6 @@ const Nav = () => {
         <li className={styles.item}>
           <Link
             activeClass={styles.active}
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-50}
-            duration={500}
-          >
-            About
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link
-            activeClass={styles.active}
             to="projects"
             spy={true}
             smooth={true}
@@ -42,6 +30,19 @@ const Nav = () => {
             Projects
           </Link>
         </li>
+        <li className={styles.item}>
+          <Link
+            activeClass={styles.active}
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-50}
+            duration={500}
+          >
+            About
+          </Link>
+        </li>
+
         <li className={styles.item}>
           <Link
             activeClass={styles.active}

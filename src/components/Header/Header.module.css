@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), transparent),
+  background: linear-gradient(rgba(0, 0, 0, 0.9), transparent),
     url("../../images/landing-page.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,7 +14,6 @@
 .text {
   font-size: 4.2rem;
   margin-bottom: 2rem;
-  font-weight: 200;
 }
 
 button {

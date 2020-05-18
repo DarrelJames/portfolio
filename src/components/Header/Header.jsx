@@ -6,13 +6,13 @@ const Header = () => {
     <>
       <div className={styles.container} id="home">
         <div className={styles.text}>
-          Hello, I'm <span style={{ color: "#e31b6d" }}>Darrel Castellano</span>
+          Hello, I'm <span style={{}}>Darrel Castellano</span>
           .<br />
           I'm a full-stack web developer
         </div>
         <Link
           activeClass="active"
-          to="about"
+          to="projects"
           spy={true}
           smooth={true}
           offset={0}
